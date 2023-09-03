@@ -1,8 +1,13 @@
 from fastapi import APIRouter
 
-from ..controller.analytics import (get_gross_npa, get_gross_recoveries,
-                                    get_gross_sma, get_ranged_npa,
-                                    get_ranged_recoveries, get_ranged_sma)
+from ..controller.analytics import (
+    get_gross_npa,
+    get_gross_recoveries,
+    get_gross_sma,
+    get_ranged_npa,
+    get_ranged_recoveries,
+    get_ranged_sma,
+)
 
 router = APIRouter()
 

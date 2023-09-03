@@ -1,7 +1,10 @@
 from fastapi import APIRouter
 
-from ..controller.customer import (get_all_customers, get_filtered_customers,
-                                   get_particular_customer)
+from ..controller.customer import (
+    get_all_customers,
+    get_filtered_customers,
+    get_particular_customer,
+)
 
 router = APIRouter()
 
